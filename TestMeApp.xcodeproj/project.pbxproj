@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E59775C1CFC7BF200B598E1 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E59775B1CFC7BF200B598E1 /* ModalViewController.swift */; };
 		3E7D4DEA1CFB58790061C93D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D4DE91CFB58790061C93D /* AppDelegate.swift */; };
 		3E7D4DEC1CFB58790061C93D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D4DEB1CFB58790061C93D /* ViewController.swift */; };
 		3E7D4DEF1CFB58790061C93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D4DED1CFB58790061C93D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E59775B1CFC7BF200B598E1 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		3E7D4DE61CFB58780061C93D /* TestMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7D4DE91CFB58790061C93D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7D4DEB1CFB58790061C93D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3E7D4DE91CFB58790061C93D /* AppDelegate.swift */,
 				3E7D4DEB1CFB58790061C93D /* ViewController.swift */,
+				3E59775B1CFC7BF200B598E1 /* ModalViewController.swift */,
 				3E7D4DED1CFB58790061C93D /* Main.storyboard */,
 				3E7D4DF01CFB58790061C93D /* Assets.xcassets */,
 				3E7D4DF21CFB58790061C93D /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7D4DEC1CFB58790061C93D /* ViewController.swift in Sources */,
+				3E59775C1CFC7BF200B598E1 /* ModalViewController.swift in Sources */,
 				3E7D4DEA1CFB58790061C93D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				3E7D4E101CFB587A0061C93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E7D4E111CFB587A0061C93D /* Build configuration list for PBXNativeTarget "TestMeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				3E7D4E131CFB587A0061C93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E7D4E141CFB587A0061C93D /* Build configuration list for PBXNativeTarget "TestMeAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				3E7D4E161CFB587A0061C93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
